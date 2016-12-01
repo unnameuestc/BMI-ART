@@ -6,22 +6,31 @@ import com.bmi.mobileart.service.Server.*;
 
 import java.io.IOException;
 
+import org.nutz.log.Log;
+import org.nutz.log.Logs;
+
 /**
  * @author hoganliu
  * modified by xiaoyu
  */
 public class Main {
 
-    private ApiMonitor monitor = ApiMonitor.get();
+	public static Log log = null;
+//    private ApiMonitor monitor = ApiMonitor.get();
 
+	static {
+        System.setProperty("log4j.configurationFile", "log4j2.xml");
+        log = Logs.get();
+    }
+	
     public static void main(String[] args) throws IOException {
-
+  
         //初始化配置
         if(!Config.init()){
             System.out.println("Error init configuration!");
             return;
         }
-
+        
         BmiServer server = new BmiServer(Config.PortNum, Config.ThreadCnt);
 
         //首页

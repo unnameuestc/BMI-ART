@@ -1,0 +1,44 @@
+2016-12-01 at 16:40:46 CST DEBUG org.nutz.dao.impl.NutDao 108 <init> - NutDao[_selfId=0] init ...
+2016-12-01 at 16:40:46 CST DEBUG org.nutz.castor.Castors 115 reload - Using 94 castor for Castors
+2016-12-01 at 16:40:46 CST INFO  org.nutz.filepool.NutFilePool 23 <init> - Init file-pool by: D:\Users\bmi-xiaoyu/.nutz/tmp/dao/ [200000]
+2016-12-01 at 16:40:46 CST DEBUG org.nutz.filepool.NutFilePool 37 <init> - file-pool.home: 'D:\Users\bmi-xiaoyu\.nutz\tmp\dao'
+2016-12-01 at 16:40:46 CST INFO  org.nutz.filepool.NutFilePool 66 <init> - file-pool.cursor: 0
+2016-12-01 at 16:40:46 CST DEBUG org.nutz.dao.jdbc.Jdbcs 90 <clinit> - Jdbcs init complete
+2016-12-01 at 16:40:46 CST INFO  org.nutz.dao.jdbc.Jdbcs 103 getExpert - Get Connection from DataSource for JdbcExpert, if I lock at here, check your database server and configure
+2016-12-01 at 16:40:46 CST INFO  com.alibaba.druid.pool.DruidDataSource 655 init - {dataSource-1} inited
+2016-12-01 at 16:40:46 CST DEBUG org.nutz.dao.impl.DaoSupport$1 191 invoke - JDBC Driver --> mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )
+2016-12-01 at 16:40:46 CST DEBUG org.nutz.dao.impl.DaoSupport$1 192 invoke - JDBC Name   --> MySQL Connector Java
+2016-12-01 at 16:40:46 CST DEBUG org.nutz.dao.impl.DaoSupport$1 194 invoke - JDBC URL    --> jdbc:mysql://120.26.222.176:3336/artservice?characterEncoding=utf8
+2016-12-01 at 16:40:46 CST DEBUG org.nutz.dao.impl.DaoSupport$1 210 invoke - Mysql : character_set_client=utf8
+2016-12-01 at 16:40:46 CST DEBUG org.nutz.dao.impl.DaoSupport$1 210 invoke - Mysql : character_set_connection=utf8
+2016-12-01 at 16:40:46 CST DEBUG org.nutz.dao.impl.DaoSupport$1 210 invoke - Mysql : character_set_database=utf8
+2016-12-01 at 16:40:46 CST DEBUG org.nutz.dao.impl.DaoSupport$1 210 invoke - Mysql : character_set_filesystem=binary
+2016-12-01 at 16:40:46 CST DEBUG org.nutz.dao.impl.DaoSupport$1 210 invoke - Mysql : character_set_results=
+2016-12-01 at 16:40:46 CST DEBUG org.nutz.dao.impl.DaoSupport$1 210 invoke - Mysql : character_set_server=latin1
+2016-12-01 at 16:40:46 CST DEBUG org.nutz.dao.impl.DaoSupport$1 210 invoke - Mysql : character_set_system=utf8
+2016-12-01 at 16:40:46 CST DEBUG org.nutz.dao.impl.DaoSupport$1 210 invoke - Mysql : character_sets_dir=/usr/share/mysql/charsets/
+2016-12-01 at 16:40:46 CST DEBUG org.nutz.dao.impl.DaoSupport$1 217 invoke - Mysql : database=artservice
+2016-12-01 at 16:40:46 CST DEBUG org.nutz.dao.impl.DaoSupport$1 223 invoke - Mysql : user=bmiadmin@182.138.127.93
+2016-12-01 at 16:40:47 CST DEBUG org.nutz.dao.impl.DaoSupport 238 setDataSource - Database info --> MYSQL:[MySQL - 5.6.25]
+2016-12-01 at 16:44:10 CST DEBUG org.nutz.dao.impl.NutDao 108 <init> - NutDao[_selfId=0] init ...
+2016-12-01 at 16:44:10 CST DEBUG org.nutz.castor.Castors 115 reload - Using 94 castor for Castors
+2016-12-01 at 16:44:10 CST INFO  org.nutz.filepool.NutFilePool 23 <init> - Init file-pool by: D:\Users\bmi-xiaoyu/.nutz/tmp/dao/ [200000]
+2016-12-01 at 16:44:10 CST DEBUG org.nutz.filepool.NutFilePool 37 <init> - file-pool.home: 'D:\Users\bmi-xiaoyu\.nutz\tmp\dao'
+2016-12-01 at 16:44:10 CST INFO  org.nutz.filepool.NutFilePool 66 <init> - file-pool.cursor: 0
+2016-12-01 at 16:44:10 CST DEBUG org.nutz.dao.jdbc.Jdbcs 90 <clinit> - Jdbcs init complete
+2016-12-01 at 16:44:10 CST INFO  org.nutz.dao.jdbc.Jdbcs 103 getExpert - Get Connection from DataSource for JdbcExpert, if I lock at here, check your database server and configure
+2016-12-01 at 16:44:10 CST INFO  com.alibaba.druid.pool.DruidDataSource 655 init - {dataSource-1} inited
+2016-12-01 at 16:44:11 CST DEBUG org.nutz.dao.impl.DaoSupport$1 191 invoke - JDBC Driver --> mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )
+2016-12-01 at 16:44:11 CST DEBUG org.nutz.dao.impl.DaoSupport$1 192 invoke - JDBC Name   --> MySQL Connector Java
+2016-12-01 at 16:44:11 CST DEBUG org.nutz.dao.impl.DaoSupport$1 194 invoke - JDBC URL    --> jdbc:mysql://120.26.222.176:3336/artservice?characterEncoding=utf8
+2016-12-01 at 16:44:11 CST DEBUG org.nutz.dao.impl.DaoSupport$1 210 invoke - Mysql : character_set_client=utf8
+2016-12-01 at 16:44:11 CST DEBUG org.nutz.dao.impl.DaoSupport$1 210 invoke - Mysql : character_set_connection=utf8
+2016-12-01 at 16:44:11 CST DEBUG org.nutz.dao.impl.DaoSupport$1 210 invoke - Mysql : character_set_database=utf8
+2016-12-01 at 16:44:11 CST DEBUG org.nutz.dao.impl.DaoSupport$1 210 invoke - Mysql : character_set_filesystem=binary
+2016-12-01 at 16:44:11 CST DEBUG org.nutz.dao.impl.DaoSupport$1 210 invoke - Mysql : character_set_results=
+2016-12-01 at 16:44:11 CST DEBUG org.nutz.dao.impl.DaoSupport$1 210 invoke - Mysql : character_set_server=latin1
+2016-12-01 at 16:44:11 CST DEBUG org.nutz.dao.impl.DaoSupport$1 210 invoke - Mysql : character_set_system=utf8
+2016-12-01 at 16:44:11 CST DEBUG org.nutz.dao.impl.DaoSupport$1 210 invoke - Mysql : character_sets_dir=/usr/share/mysql/charsets/
+2016-12-01 at 16:44:11 CST DEBUG org.nutz.dao.impl.DaoSupport$1 217 invoke - Mysql : database=artservice
+2016-12-01 at 16:44:11 CST DEBUG org.nutz.dao.impl.DaoSupport$1 223 invoke - Mysql : user=bmiadmin@182.138.127.93
+2016-12-01 at 16:44:11 CST DEBUG org.nutz.dao.impl.DaoSupport 238 setDataSource - Database info --> MYSQL:[MySQL - 5.6.25]

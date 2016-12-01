@@ -12,11 +12,11 @@ import java.net.InetSocketAddress;
  * Created by Keith on 2015/4/10.
  */
 public class BmiServer {
+
     private int port = 80;
     private int threadCnt = 10;
 
     private HttpServer httpServer = null;
-
     
     public BmiServer(int port, int threadCnt) { 
         this.port = port;
@@ -66,6 +66,7 @@ public class BmiServer {
         }
 
         System.out.println("Server Listen port " + port + " ...");
+        
         httpServer.start();
         return true;
     }

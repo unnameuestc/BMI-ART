@@ -1,0 +1,4 @@
+16:44:10.892 INFO  org.nutz.filepool.NutFilePool 23 <init> - Init file-pool by: D:\Users\bmi-xiaoyu/.nutz/tmp/dao/ [200000]
+16:44:10.893 INFO  org.nutz.filepool.NutFilePool 66 <init> - file-pool.cursor: 0
+16:44:10.899 INFO  org.nutz.dao.jdbc.Jdbcs 103 getExpert - Get Connection from DataSource for JdbcExpert, if I lock at here, check your database server and configure
+16:44:10.919 INFO  com.alibaba.druid.pool.DruidDataSource 655 init - {dataSource-1} inited

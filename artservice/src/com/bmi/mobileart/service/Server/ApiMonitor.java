@@ -1,6 +1,7 @@
 package com.bmi.mobileart.service.Server;
 
 import com.bmi.mobileart.service.Config;
+import com.bmi.mobileart.service.DAO.ApiStatus;
 import com.bmi.mobileart.service.utils.TextUtils;
 import org.nutz.dao.Dao;
 

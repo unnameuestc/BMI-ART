@@ -2,7 +2,6 @@ package com.bmi.mobileart.service.Handler;
 
 import com.bmi.mobileart.service.DAO.*;
 import com.bmi.mobileart.service.Server.ApiMonitor;
-import com.bmi.mobileart.service.Server.ApiStatus;
 import com.bmi.mobileart.service.Server.BaseHandler;
 import com.bmi.mobileart.service.Config;
 import com.bmi.mobileart.service.utils.TextUtils;

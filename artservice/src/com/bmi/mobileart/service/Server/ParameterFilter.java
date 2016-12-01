@@ -121,7 +121,7 @@ public class ParameterFilter extends Filter {
         StringTokenizer st = new StringTokenizer(params, "&");	
         while (st.hasMoreTokens()) {
             String e = st.nextToken();
-            System.out.println("e的值：" + e);
+//            System.out.println("e的值：" + e);
             //Returns the index within this string of the first occurrence of the specified substring, starting at the specified index.
             int sep = e.indexOf('=');
             if (sep >= 0) {
