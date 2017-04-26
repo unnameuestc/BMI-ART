@@ -18,6 +18,7 @@ public class Main {
 	public static Log log = null;
 //    private ApiMonitor monitor = ApiMonitor.get();
 
+	//static{}语句先于main函数执行，且只执行一次
 	static {
         System.setProperty("log4j.configurationFile", "log4j2.xml");
         log = Logs.get();
@@ -69,7 +70,7 @@ public class Main {
         //交易
         server.addHandler("/trade/", new TradeHandler());
 
-        //其它
+        //其它(API响应时间测试)
         server.addHandler("/other/", new OtherHandler());
 
         server.start();
